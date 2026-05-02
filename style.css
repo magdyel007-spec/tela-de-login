@@ -1,0 +1,93 @@
+body {
+  background-image: url("img/fundo2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0%;
+  justify-content: center;
+  align-items:center;
+  display: flex;
+}
+
+.container {
+width: 500px;
+height: 550px;
+flex-direction: column;
+display: flex;
+border-radius: 30px;
+background-color: rgba(138, 139, 141, 0.2);
+backdrop-filter: blur(10px);
+padding: 40px;
+align-items: center;
+justify-content: center 
+}
+
+.imagem {
+width: 60px;
+height: auto;
+}
+
+.cadastro {
+border-radius: 70px;
+border-color: rgb(0, 132, 255);
+outline: none;
+height: 46px;
+width: 350px;
+}
+
+.email {
+display: flex;
+align-items: center;
+margin-bottom: 25px;
+}
+
+.senha {
+display: flex;
+align-items: center;
+margin-bottom: 25px;
+}
+
+
+h2 {
+margin-top: -20px;
+color: rgb(0, 132, 255);
+}
+
+.botão {
+border-radius: 70px;
+border-color: rgb(0, 132, 255);
+outline: none;
+height: 48px;
+width: 180px;
+background-color: rgba(0, 140, 255, 0.562);
+font-size: 17px;
+font-weight: 20px;
+}
+
+h1 {
+color: rgb(0, 132, 255);
+}
+
+.Login {
+border-radius: 70px;
+border-color: rgb(0, 132, 255);
+outline: none;
+height: 48px;
+width: 180px;
+background-color: rgba(0, 140, 255, 0.562);
+font-size: 17px;
+font-weight: 20px;
+text-decoration: none;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#swup {
+  transition: opacity 0.4s;
+}
+
+.swup-transition-out {
+  opacity: 0;
+}

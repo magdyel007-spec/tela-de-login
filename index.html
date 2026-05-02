@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Login Projeto</title>
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<script src="https://unpkg.com/swup@4"></script>
+
+<script src="https://unpkg.com/@swup/overlay-theme@2"></script>
+</head>
+<!--cria um html,utf8 é o motor que le acentos etc etc,lang é a linguagem nesse caso portugues brasil, link style.., ta conectando o css e head é td que não aparece na tela-->
+
+<body>
+<div id="swup">
+<div class="container">
+<h2>Faça seu Login</h2>
+<!--h2 texto/subtitulo body td que aparece na tela, class é a classe pra editar no css-->
+
+   <div class="email">
+<img src="img/email.png" class="imagem">
+<input type="email" id="email" class="cadastro" placeholder="Digite seu email">
+   </div>
+<!--a div é só uma caixa pra organizar as coisas dentro dela-->
+
+   <div class="senha">
+<img src="img/senha.png" class="imagem">
+<input type="password" id="senha" class="cadastro" placeholder="Digite sua senha">
+  </div>
+<!--as input são as caixa de entrada-->
+
+<button id="login" class="botão">Fazer login</button>
+<!--botão de confirmar cadastro-->
+
+</div>
+</div>
+
+<script src="config.js"></script>
+
+<script src="login.js"></script>
+<!--conecta html ao js-->
+
+</body>
+</html>
